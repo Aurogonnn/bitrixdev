@@ -2,4 +2,4 @@
 .vscode
 .fleet
 logs
-.env
+#.env

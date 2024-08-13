@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/Aurogonnn/bitrixdev.git && \
 chmod -R 775 /var/www/bitrix && chown -R root:www-data /var/www/bitrix && \
 
 echo "Config"
-cp -f /var/www/bitrixdock/.env_template /var/www/bitrixdock/.env
+cp -f /var/www/bitrixdock/.env /var/www/bitrixdock/.env
 sed -i 's/SITE_PATH=.\/www/SITE_PATH=\/var\/www\/bitrix/' /var/www/bitrixdock/.env
 
 echo "Run"
